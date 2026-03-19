@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.about_title {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.about_text {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
