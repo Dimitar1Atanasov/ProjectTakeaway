@@ -80,5 +80,6 @@ namespace ProjectTakeaway.Web.Data
         }
         public DbSet<ProjectTakeaway.Web.Data.Entities.Menu> Menu { get; set; } = default!;
         public DbSet<ProjectTakeaway.Web.Data.Entities.MenuCategory> MenuCategory { get; set; } = default!;
+        public DbSet<ProjectTakeaway.Web.Data.Entities.MenuItem> MenuItem { get; set; } = default!;
     }
 }
