@@ -78,5 +78,6 @@ namespace ProjectTakeaway.Web.Data
                     .OnDelete(DeleteBehavior.Cascade);
             });
         }
+        public DbSet<ProjectTakeaway.Web.Data.Entities.Menu> Menu { get; set; } = default!;
     }
 }
