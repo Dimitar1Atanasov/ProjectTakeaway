@@ -1,8 +1,71 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
+    var companyName = "QuickBite";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="home-container">
+
+    <!-- 🔥 Hero Section -->
+    <div class="hero-section">
+        <h1>Delicious food, delivered fast</h1>
+        <p>Order your favorite meals from @companyName in just a few clicks.</p>
+        <a href="/Home/Menu" class="btn-primary">Order Now</a>
+    </div>
+
+    <!-- 🍔 Categories -->
+    <div class="section">
+        <h2>Popular Categories</h2>
+        <div class="categories">
+            <div class="category-card">🍕 Pizza</div>
+            <div class="category-card">🍔 Burgers</div>
+            <div class="category-card">🥗 Salads</div>
+            <div class="category-card">🍣 Sushi</div>
+        </div>
+    </div>
+
+    <!-- ⭐ Featured Meals -->
+    <div class="section">
+        <h2>Featured Meals</h2>
+        <div class="meals">
+            <div class="meal-card">
+                <h3>Cheeseburger</h3>
+                <p>Juicy grilled beef with melted cheese</p>
+                <span class="price">$8.99</span>
+                <button class="btn-secondary">Add to Cart</button>
+            </div>
+
+            <div class="meal-card">
+                <h3>Margherita Pizza</h3>
+                <p>Classic pizza with fresh mozzarella</p>
+                <span class="price">$10.99</span>
+                <button class="btn-secondary">Add to Cart</button>
+            </div>
+
+            <div class="meal-card">
+                <h3>Chicken Salad</h3>
+                <p>Fresh and healthy with grilled chicken</p>
+                <span class="price">$7.49</span>
+                <button class="btn-secondary">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🚚 Info Section -->
+    <div class="section info">
+        <div class="info-box">
+            <h3>⚡ Fast Delivery</h3>
+            <p>Get your food delivered in under 30 minutes.</p>
+        </div>
+
+        <div class="info-box">
+            <h3>🍽️ Quality Food</h3>
+            <p>We use only the freshest ingredients.</p>
+        </div>
+
+        <div class="info-box">
+            <h3>💳 Easy Payment</h3>
+            <p>Secure and flexible payment options.</p>
+        </div>
+    </div>
+
 </div>
