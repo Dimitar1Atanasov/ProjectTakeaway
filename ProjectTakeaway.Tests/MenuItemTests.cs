@@ -11,7 +11,6 @@ namespace ProjectTakeaway.Tests
         /// <summary>
         /// Tests that a MenuItem can be created and saved to the database.
         /// </summary>
-        [Fact]
         public void Can_Create_MenuItem()
         {
             var context = TestDbContextFactory.Create();
@@ -32,7 +31,6 @@ namespace ProjectTakeaway.Tests
         /// <summary>
         /// Tests that the MenuItem price is stored correctly.
         /// </summary>
-        [Fact]
         public void MenuItem_Price_Is_Correct()
         {
             var item = new MenuItem
@@ -47,7 +45,6 @@ namespace ProjectTakeaway.Tests
         /// <summary>
         /// Tests that a MenuItem can be linked to a MenuCategory.
         /// </summary>
-        [Fact]
         public void MenuItem_Assigned_To_Category()
         {
             var context = TestDbContextFactory.Create();

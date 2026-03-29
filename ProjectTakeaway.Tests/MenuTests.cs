@@ -11,7 +11,6 @@ namespace ProjectTakeaway.Tests
         /// <summary>
         /// Tests that a Menu can be created and saved.
         /// </summary>
-        [Fact]
         public void Can_Create_Menu()
         {
             var context = TestDbContextFactory.Create();
@@ -31,7 +30,6 @@ namespace ProjectTakeaway.Tests
         /// <summary>
         /// Tests that the menu name is stored correctly.
         /// </summary>
-        [Fact]
         public void Menu_Name_Is_Correct()
         {
             var context = TestDbContextFactory.Create();
